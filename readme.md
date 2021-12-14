@@ -1,10 +1,10 @@
 to run application
 
--- go run .
+-- docker-compose build
+-- docker-compose up
 
-but first install dependencies
+postman library
 
--- go mod vendor
--- go mod tidy
+https://www.getpostman.com/collections/153a42790a02b3da28c9
 
 thanks
