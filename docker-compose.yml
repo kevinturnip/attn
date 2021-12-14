@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  attn:
+    build:
+      context: ./ 
+      dockerfile: Dockerfile
+    volumes:
+      - ./go/src/:/user/src/app
+    ports:
+    - "5001:3000"
